@@ -1,0 +1,213 @@
+@charset "utf-8";
+.meizu-footer {
+  width: 100%;
+  margin-top: 40px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.meizu-footer .container .footer-row {
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.meizu-footer .container .footer-row ul {
+  list-style: none;
+  overflow: hidden;
+  float: left;
+}
+.meizu-footer .container .footer-row ul li {
+  float: left;
+  text-align: center;
+}
+.meizu-footer .container .footer-row ul li a {
+  display: block;
+  height: 69px;
+  width: 150px;
+}
+.meizu-footer .container .footer-row ul li a img {
+  width: 50px;
+  height: 39px;
+}
+.meizu-footer .container .footer-row ul li a span {
+  display: block;
+  font-size: 12px;
+  line-height: 30px;
+  color: #999;
+}
+.meizu-footer .container .footer-row .meizu-footer-hotline {
+  width: 156px;
+  height: 103px;
+  position: absolute;
+  right: 0;
+  top: 24px;
+  text-align: right;
+}
+.meizu-footer .container .footer-row .meizu-footer-hotline span {
+  font-size: 12px;
+  color: #999;
+  line-height: 30px;
+}
+.meizu-footer .container .footer-row .meizu-footer-hotline .tel {
+  color: #008cff;
+  font-size: 25px;
+  font-weight: 400px;
+  line-height: 40px;
+}
+.meizu-footer .container .footer-row .meizu-footer-hotline a {
+  font-size: 14px;
+  background-color: #008cff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding: 0 16px;
+  margin-top: 3px;
+}
+.meizu-footer .container .footer-hr {
+  margin: 15px auto 28px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left {
+  float: left;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul {
+  overflow: hidden;
+  list-style: none;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul li {
+  height: 18px;
+  border-right: 1px solid #d6d6d6;
+  float: left;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul li a {
+  color: #999;
+  font-size: 12px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul li a:hover {
+  color: blue;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul .no-border {
+  border-right: 0;
+  position: relative;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul .no-border a {
+  width: 82px;
+  display: block;
+  padding-left: 24px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left ul .no-border a .jlt {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/下载.png);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate {
+  padding-top: 8px;
+  color: #999;
+  font-size: 12px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate a {
+  color: #999;
+  padding-left: 5px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate a:hover {
+  color: blue;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate a:hover i {
+  background-image: url(../img/国徽2.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate i {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  width: 14px;
+  height: 18px;
+  background-image: url(../img/国徽.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a1 i {
+  background-image: url(../img/_a1.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a1:hover i {
+  background-image: url(../img/_a1-1.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a2 i {
+  background-image: url(../img/_a2.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a2:hover i {
+  background-image: url(../img/_a2-1.png);
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a3 i {
+  background-image: url(../img/_a3.png);
+  width: 20px;
+}
+.meizu-footer .container .meizu-lx .meizu-footer-info-left .meizu-footer-certificate ._a3:hover i {
+  background-image: url(../img/_a3-1.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe {
+  float: right;
+  margin-top: 35px;
+  position: relative;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe a {
+  display: inline-block;
+  padding-right: 16px;
+  border-right: 1px solid #d6d6d6;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 20px;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a1 {
+  background-image: url(../img/ce1.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a1 img {
+  position: absolute;
+  width: 180px;
+  left: -20px;
+  bottom: 40px;
+  display: none;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a1:hover {
+  background-image: url(../img/ce1hover.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a1:hover img {
+  display: block;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a2 {
+  background-image: url(../img/ce2.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a2 img {
+  position: absolute;
+  width: 180px;
+  left: -20px;
+  bottom: 40px;
+  display: none;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a2:hover {
+  background-image: url(../img/ce2hover.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a2:hover img {
+  display: block;
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a3 {
+  background-image: url(../img/ce3.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a3:hover {
+  background-image: url(../img/ce3hover.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a4 {
+  background-image: url(../img/ce4.png);
+}
+.meizu-footer .container .meizu-lx .ii-subscribe .a4:hover {
+  background-image: url(../img/ce4hover.png);
+}
