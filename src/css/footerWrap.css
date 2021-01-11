@@ -1,0 +1,105 @@
+@charset "utf-8";
+.footerWrap-1 {
+  border-top: 1px solid #E5E6E7;
+}
+.footerWrap-1 .footerInner {
+  width: 1000px;
+  margin: 24px auto 30px;
+}
+.footerWrap-1 .footerInner .footer-layer1 {
+  height: 50px;
+  line-height: 50px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-innerLink {
+  float: left;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-innerLink a {
+  color: black;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-innerLink img {
+  background-color: #888;
+  width: 1px;
+  height: 10px;
+  margin: 0 5px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-service {
+  float: left;
+  margin-left: 36px;
+  padding-bottom: 10px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-service a {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  width: 64px;
+  color: white;
+  background-color: #32a5e7;
+  border-radius: 2px;
+  text-align: center;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-service .service-label {
+  margin-right: 10px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-service .service-num {
+  margin-right: 20px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink {
+  float: right;
+  padding-top: 9px;
+  position: relative;
+  height: 32px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink a {
+  margin-left: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../img/l-4.png) no-repeat;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-sinaMblog i {
+  background-position: -218px -91px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-sinaMblog:hover i {
+  background-position: -218px -137px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-weChat i {
+  background-position: -302px -91px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-weChat:hover i {
+  background-position: -302px -137px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-qzone i {
+  background-position: -344px -91px;
+}
+.footerWrap-1 .footerInner .footer-layer1 .footer-outerLink .footer-qzone:hover i {
+  background-position: -344px -137px;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 {
+  font-size: 10px;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 .copy-footer {
+  width: 1000px;
+  overflow: hidden;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 .copy-footer span {
+  float: left;
+  color: #7f7f7f;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 .copy-footer a {
+  color: #7f7f7f;
+  margin-left: 6px;
+  float: left;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 .copy-footer a:hover {
+  color: black;
+}
+.footerWrap-1 .footerInner .copyrightWrap-1 .copy-footer .footer-z {
+  background: url('https://uc-res.mzres.com/resources/uc/wlogin/member/images/ghs.png') no-repeat;
+  background-size: 15px 14px;
+  padding-left: 18px;
+  background-position-y: center;
+}

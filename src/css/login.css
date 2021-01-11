@@ -1,0 +1,142 @@
+@charset "utf-8";
+.container {
+  width: 1240px;
+  padding-right: 0;
+  padding-left: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 88;
+}
+.header .container {
+  height: 80px;
+}
+.header .container .logo {
+  width: 125px;
+  height: 80px;
+  float: left;
+  background-image: url(../img/meizu.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+.banner-box {
+  min-height: 750px;
+  max-height: 1080px;
+  background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+  margin-top: 80px;
+  position: relative;
+}
+.banner-box::before {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background: url(../img/l-2.png) no-repeat;
+  background-position: 50% 50%;
+}
+.banner-box .bg-box {
+  position: relative;
+  width: 1240px;
+  height: 750px;
+  margin: 0 auto;
+}
+.banner-box .bg-box .main-form {
+  position: absolute;
+  top: 24%;
+  right: 85px;
+  background-color: #fff;
+  padding: 35px 35px 10px;
+  box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+  border-radius: 2px;
+}
+.banner-box .bg-box .main-form .tab-title {
+  font-size: 18px;
+  margin-top: 35px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.banner-box .bg-box .main-form .cycode-box {
+  border: 1px solid #cecdcd;
+  height: 48px;
+  margin-bottom: 46px;
+}
+.banner-box .bg-box .main-form .cycode-box .cycode-selectbox {
+  height: 33px;
+}
+.banner-box .bg-box .main-form .cycode-box .cycode-selectbox span {
+  display: inline-block;
+  width: 60px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+  margin: 14px 0px 0 10px;
+}
+.banner-box .bg-box .main-form .cycode-box .cycode-selectbox span input {
+  width: 60%;
+  color: gray;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  vertical-align: middle;
+  line-height: 18px;
+  outline: none;
+}
+.banner-box .bg-box .main-form .cycode-box .cycode-selectbox span i {
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  background: url(../img/l-3.png) no-repeat;
+}
+.banner-box .bg-box .main-form .cycode-box .cycode-selectbox input {
+  width: 70%;
+  text-indent: 8px;
+  outline: none;
+  border: 0;
+}
+.banner-box .bg-box .main-form .fullBtnBlue {
+  display: block;
+  width: 300px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #387aff;
+  cursor: pointer;
+  color: #fff;
+}
+.banner-box .bg-box .main-form .transferField {
+  margin-bottom: 5px;
+}
+.banner-box .bg-box .main-form .transferField a {
+  color: #387aff;
+}
+.banner-box .bg-box .main-form .transferField .go2register {
+  float: right;
+}
+.banner-box .bg-box .main-form .qr-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: url(../img/l-1pc.png) no-repeat;
+}

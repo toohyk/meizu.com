@@ -1,0 +1,68 @@
+@charset "utf-8";
+.banner-box .bg-box .main-form {
+  top: 16%;
+  padding: 72px 35px 20px;
+}
+.banner-box .bg-box .main-form .tab-title {
+  margin-bottom: 35px;
+}
+.banner-box .bg-box .main-form .tab-title a {
+  color: #387aff;
+  font-size: 18px;
+}
+.banner-box .bg-box .main-form .txt-box {
+  font-size: 12px;
+  color: #666;
+  height: 33px;
+  padding: 5px 0;
+}
+.banner-box .bg-box .main-form .txt-box span {
+  display: none;
+}
+.banner-box .bg-box .main-form .cycode-box {
+  margin-bottom: 36px;
+}
+.banner-box .bg-box .main-form .meizu-validation {
+  height: 44px;
+  background-image: linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.banner-box .bg-box .main-form .meizu-validation .meizu-yz {
+  line-height: 44px;
+  text-indent: 30px;
+  color: #666;
+  font-size: 14px;
+}
+.banner-box .bg-box .main-form .meizu-validation:hover {
+  background-image: linear-gradient(0deg, #ffffff 0%, #f3f3f3 100%);
+}
+.banner-box .bg-box .main-form .flymeService {
+  margin-bottom: 40px;
+  height: 20px;
+  line-height: 20px;
+  width: 298px;
+}
+.banner-box .bg-box .main-form .flymeService .checkboxPic {
+  vertical-align: middle;
+}
+.banner-box .bg-box .main-form .flymeService .checkboxPic i {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #a8a8a8;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.banner-box .bg-box .main-form .flymeService label {
+  font-size: 12px;
+  cursor: pointer;
+  color: #666;
+  font-weight: normal;
+}
+.banner-box .bg-box .main-form .flymeService a {
+  font-size: 12px;
+  color: #387aff;
+  vertical-align: auto;
+}
