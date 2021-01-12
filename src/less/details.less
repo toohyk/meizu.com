@@ -1,0 +1,330 @@
+@charset "utf-8";
+.container{
+    width: 1240px;
+    padding-right: 0;
+    padding-left: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin-bottom: 0;
+}
+
+// 导航
+.layout-header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+    .container{
+        position: relative;
+        z-index: 99;
+        .layout-header-logo{
+            float: left;
+            height: 80px;
+            a{
+                display: block;
+                height: 80px;
+                width: 150px;
+                img{
+                    width: 125px;
+                    margin-top: 28px;
+                }
+            }
+        }
+        .meizu-header-link{
+            overflow: hidden;
+            float: left;
+            padding-left: 35px;
+            li{
+                float: left;
+                margin: 0 20px 0 15px;
+                a{
+                    display: block;
+                    height: 80px;
+                    line-height: 80px;
+                    font-size: 14px;
+                    color: #333;
+                    transition: all .2s;
+                    &:hover{
+                        color: #008cff;
+                    }
+                }
+            }
+        }
+        .layout-header-service{
+            float: right;
+            height: 80px;
+            overflow: hidden;
+            .layout-header-service-search{
+                position: relative;
+                height: 30px;
+                border-radius: 20px;
+                padding: 0;
+                margin: 24px 0 0 18px;
+                width: 170px;
+                text-align: right;
+                border: 1px solid rgba(0,0,0,.15);
+                line-height: 28px;
+                float: left;
+                .mz-autocomlete-input{
+                    vertical-align: middle;
+                    border: none;
+                    outline: none;
+                    width: 125px;
+                    height: 20px;
+                    margin-left: 10px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #999;
+                }
+                .layout-img-search{
+                    width: 17px;
+                    margin-top: 7px;
+                    margin-right: 6px;
+                    margin-left: 3px;
+                    cursor: pointer;
+                    vertical-align: top;
+                }
+            }
+            .layout-header-service-item{
+                position: relative;
+                float: left;
+                right: 3px;
+                padding: 24px 8px 0 12px;
+                .layout-header-service-link{
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    overflow: hidden;
+                    color: #666;
+                    img{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 100%;
+                    }
+                }
+            }
+            .layout-header-service-cart{
+                padding-right: 10px;
+                padding-left: 0;
+                margin-right: 0;
+                a{
+                    .layout-header-service-cart-num{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 16px;
+                        min-width: 8px;
+                        border-radius: 50%;
+                        background-color: #F10000;
+                        color: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                        display: inline-block;
+                        padding: 0 4px;
+                        font-weight: 300;
+                        z-index: 999;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+// 主题
+.page-detail{
+    padding-top: 66px;
+    position: relative;
+    .fast-nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #f6f8fb;
+        .container{
+            position: relative;
+            height: 70px;   
+            .-name{
+                margin-top: 15px;
+                float: left;
+                font-size: 26px;
+            }
+            .-products{
+                float: left;
+                margin-top: 25px;
+                margin-left: 10px;
+                overflow: hidden;
+                li{
+                    float: left;
+                    border-right: 1px solid #dedede;
+                    a{
+                        display: block;
+                        padding: 0 10px;
+                        color: #333;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+                .-products-li{
+                    border-right: 0;
+                }
+            }
+        }
+    }
+    .row{
+        position: relative;
+        height: 580px;
+        margin: 0 auto;
+        .preview{
+            position: absolute;
+            // bottom: 0;
+            width: 580px;
+            height: 580px;
+            float: left;
+            margin-top: 5px;
+            // border: 1px solid red;
+            .carousel-indicators{
+                li{
+                    border: 1px solid black;
+                }
+            }
+            .item{
+                img{
+                    width: 580px;
+                    height: 580px;
+                }
+                .carousel-control{
+                    &:hover{
+                        background: transparent;
+                    }
+                }
+            }
+            
+        }
+        .property{
+           position: relative;
+           float: right;
+           width: 568px;
+           font-size: 14px;
+           padding-top: 25px;
+        //    border: 1px solid red; 
+           .property-hd{
+               padding-top: 30px;
+               position: relative;
+               margin-bottom: 24px;
+               .mod-info{
+                   font-size: 16px;
+                   line-height: 26px;
+               }
+           }
+           .property-sell{
+               position: relative;
+               .property-sell-price{
+                    border:none;
+                    padding:0;margin:0;
+                    overflow: hidden;
+                    border-bottom: 1px solid #d6d6d630;
+                    padding-bottom: 10px;
+                    .mod-price{
+                        margin-right: 18px;
+                        color: #E03D3D;
+                        float: left;
+                        small{
+                            font-size: 24px;
+                        }
+                        .vm-money{
+                            color: #E03D3D;
+                            line-height: 46px;
+                            font-size: 36px;
+
+                        }
+                    }
+                    .mod-huabei{
+                        float: left;
+                        color: #E03D3D;
+                        font-size: 16px;
+                        line-height: 60px;
+                        em{
+                            font-size: 12px;
+                            margin-right: 2px;
+                            font-style: normal;
+                        }
+                    }
+               }
+               .property-sell-list{
+                   padding-top: 8px;
+                   padding-bottom: 26px;
+                   border-top: 1px solid #d6d6d630 ;
+               }
+           }
+           .property-service{
+               .vm-metatit{
+                   font-size: 16px;
+                   line-height: 44px;
+                   font-weight: 400;
+               }
+               .property-service-suda{
+                    .mod-site{
+                        position: relative;
+                        padding: 20px 0;
+                        border: 1px solid #D6D6D6;
+                        .site-selector{
+                            position: relative;
+                            padding: 0 30px;
+                            text-align: center;
+                            .text{
+                                display: inline-block;
+                                padding-right: 10px;
+                                height: 18px;
+                                min-width: 96px;
+                                line-height: 18px;
+                                font-size: 16px;
+                                color: #333;
+                                cursor: pointer;
+                                font-weight: 400;
+                                span{
+                                    display: inline-block;
+                                    width: 20px;
+                                }
+                            }
+                        }
+                    }
+               }
+               .property-set{
+                   .property-set-sale{
+                       margin-top: 20px;
+                       margin-bottom: -10px;
+                       dd{
+                           display: flex;
+                           margin-right: 0;
+                           overflow: hidden;
+                           flex-wrap: wrap;
+                           justify-content: space-between;
+                           a{
+                               position: relative;
+                               width: 49.2%;
+                               height: 56px;
+                               line-height: 56px;
+                               margin: 0 0 16px;
+                           }
+                       }
+                   }
+               }
+           }
+        }
+    }
+}

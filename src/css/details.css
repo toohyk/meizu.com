@@ -1,0 +1,309 @@
+@charset "utf-8";
+.container {
+  width: 1240px;
+  padding-right: 0;
+  padding-left: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin-bottom: 0;
+}
+.layout-header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+}
+.layout-header .container {
+  position: relative;
+  z-index: 99;
+}
+.layout-header .container .layout-header-logo {
+  float: left;
+  height: 80px;
+}
+.layout-header .container .layout-header-logo a {
+  display: block;
+  height: 80px;
+  width: 150px;
+}
+.layout-header .container .layout-header-logo a img {
+  width: 125px;
+  margin-top: 28px;
+}
+.layout-header .container .meizu-header-link {
+  overflow: hidden;
+  float: left;
+  padding-left: 35px;
+}
+.layout-header .container .meizu-header-link li {
+  float: left;
+  margin: 0 20px 0 15px;
+}
+.layout-header .container .meizu-header-link li a {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s;
+}
+.layout-header .container .meizu-header-link li a:hover {
+  color: #008cff;
+}
+.layout-header .container .layout-header-service {
+  float: right;
+  height: 80px;
+  overflow: hidden;
+}
+.layout-header .container .layout-header-service .layout-header-service-search {
+  position: relative;
+  height: 30px;
+  border-radius: 20px;
+  padding: 0;
+  margin: 24px 0 0 18px;
+  width: 170px;
+  text-align: right;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  line-height: 28px;
+  float: left;
+}
+.layout-header .container .layout-header-service .layout-header-service-search .mz-autocomlete-input {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+  width: 125px;
+  height: 20px;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
+}
+.layout-header .container .layout-header-service .layout-header-service-search .layout-img-search {
+  width: 17px;
+  margin-top: 7px;
+  margin-right: 6px;
+  margin-left: 3px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.layout-header .container .layout-header-service .layout-header-service-item {
+  position: relative;
+  float: left;
+  right: 3px;
+  padding: 24px 8px 0 12px;
+}
+.layout-header .container .layout-header-service .layout-header-service-item .layout-header-service-link {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #666;
+}
+.layout-header .container .layout-header-service .layout-header-service-item .layout-header-service-link img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.layout-header .container .layout-header-service .layout-header-service-cart {
+  padding-right: 10px;
+  padding-left: 0;
+  margin-right: 0;
+}
+.layout-header .container .layout-header-service .layout-header-service-cart a .layout-header-service-cart-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 16px;
+  min-width: 8px;
+  border-radius: 50%;
+  background-color: #F10000;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  padding: 0 4px;
+  font-weight: 300;
+  z-index: 999;
+  line-height: 16px;
+}
+.page-detail {
+  padding-top: 66px;
+  position: relative;
+}
+.page-detail .fast-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #f6f8fb;
+}
+.page-detail .fast-nav .container {
+  position: relative;
+  height: 70px;
+}
+.page-detail .fast-nav .container .-name {
+  margin-top: 15px;
+  float: left;
+  font-size: 26px;
+}
+.page-detail .fast-nav .container .-products {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.page-detail .fast-nav .container .-products li {
+  float: left;
+  border-right: 1px solid #dedede;
+}
+.page-detail .fast-nav .container .-products li a {
+  display: block;
+  padding: 0 10px;
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+}
+.page-detail .fast-nav .container .-products .-products-li {
+  border-right: 0;
+}
+.page-detail .row {
+  position: relative;
+  height: 580px;
+  margin: 0 auto;
+}
+.page-detail .row .preview {
+  position: absolute;
+  width: 580px;
+  height: 580px;
+  float: left;
+  margin-top: 5px;
+}
+.page-detail .row .preview .carousel-indicators li {
+  border: 1px solid black;
+}
+.page-detail .row .preview .item img {
+  width: 580px;
+  height: 580px;
+}
+.page-detail .row .preview .item .carousel-control:hover {
+  background: transparent;
+}
+.page-detail .row .property {
+  position: relative;
+  float: right;
+  width: 568px;
+  font-size: 14px;
+  padding-top: 25px;
+}
+.page-detail .row .property .property-hd {
+  padding-top: 30px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.page-detail .row .property .property-hd .mod-info {
+  font-size: 16px;
+  line-height: 26px;
+}
+.page-detail .row .property .property-sell {
+  position: relative;
+}
+.page-detail .row .property .property-sell .property-sell-price {
+  border: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #d6d6d630;
+  padding-bottom: 10px;
+}
+.page-detail .row .property .property-sell .property-sell-price .mod-price {
+  margin-right: 18px;
+  color: #E03D3D;
+  float: left;
+}
+.page-detail .row .property .property-sell .property-sell-price .mod-price small {
+  font-size: 24px;
+}
+.page-detail .row .property .property-sell .property-sell-price .mod-price .vm-money {
+  color: #E03D3D;
+  line-height: 46px;
+  font-size: 36px;
+}
+.page-detail .row .property .property-sell .property-sell-price .mod-huabei {
+  float: left;
+  color: #E03D3D;
+  font-size: 16px;
+  line-height: 60px;
+}
+.page-detail .row .property .property-sell .property-sell-price .mod-huabei em {
+  font-size: 12px;
+  margin-right: 2px;
+  font-style: normal;
+}
+.page-detail .row .property .property-sell .property-sell-list {
+  padding-top: 8px;
+  padding-bottom: 26px;
+  border-top: 1px solid #d6d6d630;
+}
+.page-detail .row .property .property-service .vm-metatit {
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 400;
+}
+.page-detail .row .property .property-service .property-service-suda .mod-site {
+  position: relative;
+  padding: 20px 0;
+  border: 1px solid #D6D6D6;
+}
+.page-detail .row .property .property-service .property-service-suda .mod-site .site-selector {
+  position: relative;
+  padding: 0 30px;
+  text-align: center;
+}
+.page-detail .row .property .property-service .property-service-suda .mod-site .site-selector .text {
+  display: inline-block;
+  padding-right: 10px;
+  height: 18px;
+  min-width: 96px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  font-weight: 400;
+}
+.page-detail .row .property .property-service .property-service-suda .mod-site .site-selector .text span {
+  display: inline-block;
+  width: 20px;
+}
+.page-detail .row .property .property-service .property-set .property-set-sale {
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.page-detail .row .property .property-service .property-set .property-set-sale dd {
+  display: flex;
+  margin-right: 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page-detail .row .property .property-service .property-set .property-set-sale dd a {
+  position: relative;
+  width: 49.2%;
+  height: 56px;
+  line-height: 56px;
+  margin: 0 0 16px;
+}
