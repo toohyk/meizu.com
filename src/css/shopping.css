@@ -97,6 +97,7 @@
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body {
   background-color: #fff;
   width: 100%;
+  margin-bottom: 5px;
 }
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body .cart-product {
   height: 150px;
@@ -147,7 +148,6 @@
   position: relative;
   background-color: #fff;
   outline: none;
-  cursor: no-drop;
   border: 0;
 }
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body .cart-product .cart-col-number .mz-adder .mz-adder-subtract::before {
@@ -176,6 +176,7 @@
   width: 100%;
   height: 100%;
   border: 0;
+  outline: none;
 }
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body .cart-product .cart-col-number .mz-adder .mz-adder-add {
   position: relative;

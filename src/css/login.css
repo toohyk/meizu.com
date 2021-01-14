@@ -81,33 +81,17 @@ a:hover {
   height: 33px;
 }
 .banner-box .bg-box .main-form .cycode-box .cycode-selectbox span {
-  display: inline-block;
-  width: 60px;
-  border-right: 1px solid #ddd;
-  cursor: pointer;
+  width: 150px;
+  border: 1px solid #ddd;
   margin: 14px 0px 0 10px;
 }
-.banner-box .bg-box .main-form .cycode-box .cycode-selectbox span input {
-  width: 60%;
-  color: gray;
-  text-align: center;
-  cursor: pointer;
-  border: 0;
-  vertical-align: middle;
-  line-height: 18px;
-  outline: none;
-}
-.banner-box .bg-box .main-form .cycode-box .cycode-selectbox span i {
-  display: inline-block;
-  width: 14px;
-  height: 8px;
-  background: url(../img/l-3.png) no-repeat;
-}
 .banner-box .bg-box .main-form .cycode-box .cycode-selectbox input {
-  width: 70%;
+  float: left;
+  width: 100%;
   text-indent: 8px;
   outline: none;
   border: 0;
+  height: 46px;
 }
 .banner-box .bg-box .main-form .fullBtnBlue {
   display: block;
@@ -121,6 +105,8 @@ a:hover {
   background: #387aff;
   cursor: pointer;
   color: #fff;
+  outline: none;
+  border: none;
 }
 .banner-box .bg-box .main-form .transferField {
   margin-bottom: 5px;

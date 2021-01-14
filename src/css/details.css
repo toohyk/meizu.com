@@ -300,10 +300,150 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.page-detail .row .property .property-service .property-set .property-set-sale dd .selected {
+  border: 1px solid #008cff;
+}
 .page-detail .row .property .property-service .property-set .property-set-sale dd a {
   position: relative;
   width: 49.2%;
   height: 56px;
-  line-height: 56px;
   margin: 0 0 16px;
+  background-color: #fff;
+  line-height: 56px;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+.page-detail .row .property .property-service .property-set .property-set-sale dd a img {
+  width: 18px;
+  height: 18px;
+  margin-right: 13px;
+}
+.page-detail .row .property .property-service .property-huabei {
+  margin-top: 20px;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd {
+  display: flex;
+  overflow: hidden;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd .prop {
+  padding: 26px 0;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 0;
+  position: relative;
+  width: 49.2%;
+  margin: 0 0 16px;
+  background-color: #fff;
+  line-height: 56px;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-right: 8px;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd .prop .vm-periods {
+  display: block;
+  line-height: 18px;
+  font-size: 16px;
+  color: #333;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd .prop .vm-rate {
+  color: #8c8c8c;
+  font-size: 14px;
+  padding-top: 3px;
+  display: block;
+  line-height: 18px;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd .prop .vm-rate em {
+  font-size: 10px;
+  margin-right: 2px;
+  font-style: normal;
+}
+.page-detail .row .property .property-service .property-huabei .property-huabei-bd .pop-1 {
+  margin-right: 0;
+}
+.page-detail .row .property .property-service .property-control {
+  margin-top: 16px;
+}
+.page-detail .row .property .property-service .property-control input {
+  display: block;
+  outline: none;
+  border: 1px solid #d6d6dd;
+  height: 56px;
+  width: 180px;
+  text-align: center;
+  font-size: 16px;
+}
+.page-detail .row .property .property-service .property-buy {
+  padding-top: 25px;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity {
+  border-top: 1px solid #d6d6d6;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 30px 0 40px;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count .vm-c-list {
+  flex: 1;
+  font-size: 16px;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count .vm-c-list span {
+  line-height: 36px;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count .vm-c-wp {
+  margin-right: 25px;
+  overflow: hidden;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count .vm-c-wp strong {
+  color: #e03d3d;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-quantity .vm-count .vm-c-wp strong i {
+  font-size: 24px;
+  font-style: normal;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-action {
+  margin-bottom: 15px;
+  display: flex;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-action a {
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-action .btn-l {
+  background-color: #e03d3d;
+  color: #fff;
+  width: auto;
+  flex: 2;
+  text-align: center;
+}
+.page-detail .row .property .property-service .property-buy .property-buy-action .btn-add-cart {
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  background-color: #008cff;
+  min-width: 40%;
+  border-radius: 0;
+  color: #fff;
+  flex: 1;
+  text-align: center;
+}
+.xi {
+  width: 1240px;
+  margin: 0 auto;
+}
+.xi img {
+  width: 100%;
+  height: 100%;
 }

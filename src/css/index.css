@@ -14,133 +14,14 @@ a:hover {
 body {
   background-color: #f4f4f4;
 }
-.header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 88;
+.hei {
+  color: black!important;
 }
-.header .container {
-  height: 80px;
+.witchh {
+  color: white!important;
 }
-.header .container .logo {
-  width: 125px;
-  height: 80px;
-  float: left;
-  background-image: url(../img/meizu.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-  background-position: 0 50%;
-}
-.header .container .meizu-header-link {
-  padding-left: 10px;
-  list-style: none;
-  overflow: hidden;
-  text-align: center;
-  float: left;
-}
-.header .container .meizu-header-link li {
-  float: left;
-}
-.header .container .meizu-header-link li a {
-  display: block;
-  padding: 31px 20px 30px;
-  color: black;
-  font-size: 14px;
-  transition: all 0.2s;
-}
-.header .container .meizu-header-link li:hover a {
-  color: blue;
-}
-.header .container .meizu-header-search {
-  float: left;
-  padding-top: 25px;
-  padding-left: 20px;
-  position: relative;
-}
-.header .container .meizu-header-search input {
-  outline: none;
-  display: block;
-  width: 170px;
-  height: 30px;
-  border-radius: 20px;
-  text-indent: 20px;
-  border: 1px solid black;
-  font-size: 12px;
-}
-.header .container .meizu-header-search span {
-  position: absolute;
-  right: 0px;
-  top: 25px;
-  display: block;
-  height: 30px;
-  line-height: 30px;
-  width: 30px;
-  text-align: center;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  cursor: pointer;
-}
-.header .container .meizu-header-user {
-  float: right;
-  height: 80px;
-  width: 80px;
-  padding-left: 10px;
-}
-.header .container .meizu-header-user .meizu-d {
-  height: 65px;
-  width: 30px;
-  float: left;
-}
-.header .container .meizu-header-user .meizu-d > a span {
-  font-size: 20px;
-  height: 56px;
-  width: 30px;
-  line-height: 80px;
-  color: #cecaca;
-  position: relative;
-  float: left;
-}
-.header .container .meizu-header-user .meizu-d .meizu-header-er {
-  display: none;
-  position: relative;
-  z-index: 99;
-}
-.header .container .meizu-header-user .meizu-d .meizu-header-er ul {
-  list-style: none;
-  position: absolute;
-  top: 66px;
-  right: -35px;
-  background: #f8f8f8;
-  border: 1px solid #242424;
-  width: 100px;
-  padding: 5px 0;
-}
-.header .container .meizu-header-user .meizu-d .meizu-header-er ul li {
-  width: 100px;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-}
-.header .container .meizu-header-user .meizu-d .meizu-header-er ul li a {
-  color: black;
-  font-size: 12px;
-}
-.header .container .meizu-header-user .meizu-d .meizu-header-er ul li a:hover {
-  color: blue;
-}
-.header .container .meizu-header-user .meizu-d:hover .meizu-header-er {
-  display: block;
-}
-.header .container .meizu-header-user > a span {
-  font-size: 20px;
-  height: 56px;
-  width: 30px;
-  line-height: 80px;
-  color: #cecaca;
-  position: relative;
-  float: left;
+.witchh:hover {
+  color: blue!important;
 }
 .banana {
   height: 670px;
@@ -402,42 +283,92 @@ body {
   border-radius: 50%;
   display: block;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a,
+.section-furniture-box > .container ul li:nth-of-type(3) a,
+.section-furniture-box > .container ul li:nth-of-type(4) a,
+.section-furniture-box > .container ul li:nth-of-type(6) a,
+.section-furniture-box > .container ul li:nth-of-type(7) a,
+.section-furniture-box > .container ul li:nth-of-type(8) a,
 .section-furniture-box > .container ul ._li2 a {
   text-align: center;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a span,
+.section-furniture-box > .container ul li:nth-of-type(3) a span,
+.section-furniture-box > .container ul li:nth-of-type(4) a span,
+.section-furniture-box > .container ul li:nth-of-type(6) a span,
+.section-furniture-box > .container ul li:nth-of-type(7) a span,
+.section-furniture-box > .container ul li:nth-of-type(8) a span,
 .section-furniture-box > .container ul ._li2 a span {
   display: block;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(3) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(4) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(6) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(7) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(8) a .goods-name,
 .section-furniture-box > .container ul ._li2 a .goods-name {
   font-size: 16px;
   color: black;
   margin-bottom: 2px;
   padding-top: 45px;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(3) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(4) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(6) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(7) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(8) a .goods-desc,
 .section-furniture-box > .container ul ._li2 a .goods-desc {
   font-size: 14px;
   color: #999;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(3) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(4) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(6) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(7) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(8) a .goods-price,
 .section-furniture-box > .container ul ._li2 a .goods-price {
   color: #c00;
   font-size: 22px;
   padding-top: 5px;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(3) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(4) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(6) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(7) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(8) a .goods-price i,
 .section-furniture-box > .container ul ._li2 a .goods-price i {
   font-style: normal;
   font-size: 20px;
   position: relative;
   left: 4px;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a .goods-price del,
+.section-furniture-box > .container ul li:nth-of-type(3) a .goods-price del,
+.section-furniture-box > .container ul li:nth-of-type(4) a .goods-price del,
+.section-furniture-box > .container ul li:nth-of-type(6) a .goods-price del,
+.section-furniture-box > .container ul li:nth-of-type(7) a .goods-price del,
+.section-furniture-box > .container ul li:nth-of-type(8) a .goods-price del,
 .section-furniture-box > .container ul ._li2 a .goods-price del {
   font-size: 14px;
   color: #666;
 }
+.section-furniture-box > .container ul li:nth-of-type(2) a img,
+.section-furniture-box > .container ul li:nth-of-type(3) a img,
+.section-furniture-box > .container ul li:nth-of-type(4) a img,
+.section-furniture-box > .container ul li:nth-of-type(6) a img,
+.section-furniture-box > .container ul li:nth-of-type(7) a img,
+.section-furniture-box > .container ul li:nth-of-type(8) a img,
 .section-furniture-box > .container ul ._li2 a img {
   padding-top: 50px;
   height: 230px;
   width: 230px;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a span,
+.section-furniture-box > .container ul li:nth-of-type(5) a span,
 .section-furniture-box > .container ul ._li1 a span {
   position: relative;
   display: block;
@@ -445,6 +376,8 @@ body {
   color: white;
   text-align: center;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a .goods-name,
+.section-furniture-box > .container ul li:nth-of-type(5) a .goods-name,
 .section-furniture-box > .container ul ._li1 a .goods-name {
   font-size: 21px;
   color: #fff;
@@ -452,26 +385,36 @@ body {
   margin-bottom: 0;
   padding-top: 270px;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a .goods-desc,
+.section-furniture-box > .container ul li:nth-of-type(5) a .goods-desc,
 .section-furniture-box > .container ul ._li1 a .goods-desc {
   font-size: 14px;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a .goods-price,
+.section-furniture-box > .container ul li:nth-of-type(5) a .goods-price,
 .section-furniture-box > .container ul ._li1 a .goods-price {
   color: #ebce6b;
   font-size: 24px;
   padding-top: 5px;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a .goods-price i,
+.section-furniture-box > .container ul li:nth-of-type(5) a .goods-price i,
 .section-furniture-box > .container ul ._li1 a .goods-price i {
   font-style: normal;
   font-size: 22px;
   position: relative;
   left: 4px;
 }
+.section-furniture-box > .container ul li:nth-of-type(1) a img,
+.section-furniture-box > .container ul li:nth-of-type(5) a img,
 .section-furniture-box > .container ul ._li1 a img {
   width: 302px;
   height: 375px;
   position: absolute;
   z-index: 1;
 }
+.section-furniture-box > .container ul li:nth-of-type(4),
+.section-furniture-box > .container ul li:nth-of-type(8),
 .section-furniture-box > .container ul ._li {
   margin-right: 0;
 }
