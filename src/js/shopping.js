@@ -36,7 +36,7 @@ $(function(){
 });
 
 
-(function(){
+$(function(){
     // console.log($('.mz-checkbox'));
     let other=$('.mz-checkbox').not($('.check-all'));
    
@@ -53,4 +53,4 @@ $(function(){
         isAllCheck?$('.check-all').prop('checked',true):$('.check-all').prop('checked',false)
     })
 
-})();
+});

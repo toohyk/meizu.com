@@ -1,5 +1,6 @@
 // import './library/jquery.js';
 
+
 $.ajax({
     type: "get",
     url: "../../interface/getData.php",
@@ -20,7 +21,9 @@ $.ajax({
         </li>`;
         });
         $('.con-ul').append(temp);
+
     }
+    
 });
 
 // 切换导航栏颜色

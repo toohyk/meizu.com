@@ -37,11 +37,11 @@ if(shop){
                     </td>
                     <td class="cart-col-number">
                         <div class="mz-adder">
-                            <button class="mz-adder-subtract" data-type="subrt"></button>
+                            
                             <div class="mz-adder-num">
                                 <input type="number" value="${arr[0].num}" id="_num" min="1" data-num="${nnum}">
                             </div>
-                            <button class="mz-adder-add" data-type="add"></button>
+                            
                         </div>
                     </td>
                     <td class="cart-col-total" style="color: red;text-align: center;">

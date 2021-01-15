@@ -167,13 +167,11 @@
   line-height: 24px;
   float: left;
   vertical-align: middle;
-  border-left: 1px solid #EFEFEF;
-  border-right: 1px solid #EFEFEF;
 }
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body .cart-product .cart-col-number .mz-adder .mz-adder-num input {
   text-align: center;
   display: inline-block;
-  width: 100%;
+  width: 80px;
   height: 100%;
   border: 0;
   outline: none;
