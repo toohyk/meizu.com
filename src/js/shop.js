@@ -25,7 +25,7 @@ if(shop){
                 <table class="cart-merchant-body">
                 <tr class="cart-product ">
                     <td class="cart-col-select">
-                        <input type="checkbox" class="mz-checkbox">
+                        <input type="checkbox" class="mz-checkbox" data-input="${nnum}">
                         <a href="#"><img src="${picture[0].src}" alt=""></a>
                         <a href="#" class="cart-product-info">
                             <p class="cart-product-item-name">${elm.title}</p>

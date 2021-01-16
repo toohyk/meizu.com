@@ -1,8 +1,15 @@
 @charset "utf-8";
 .container {
-  width: 1240px;
+  min-width: 1240px;
   padding-right: 0;
   padding-left: 0;
+}
+@media (min-width: 1240px) {
+  .container {
+    min-width: 1240px;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 a:hover {
   text-decoration: none;
@@ -36,6 +43,9 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+.banana > .carousel > .carousel-control {
+  background: transparent;
 }
 .banana .item > img {
   height: 670px;
@@ -84,19 +94,22 @@ body {
 }
 .section-phone-box .section-box-adv {
   height: 450px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee s;
   overflow: hidden;
+  position: relative;
 }
 .section-phone-box .section-box-adv a {
-  display: block;
-  height: 450px;
   width: 100%;
-  position: relative;
+  height: 100%;
 }
 .section-phone-box .section-box-adv a img {
   position: absolute;
-  left: -35%;
+  width: auto;
   height: 450px;
-  border: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .section-phone-box .section-box-row {
   padding-top: 10px;
@@ -231,19 +244,22 @@ body {
 }
 .section-furniture-box .section-box-adv {
   height: 450px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee s;
   overflow: hidden;
+  position: relative;
 }
 .section-furniture-box .section-box-adv a {
-  display: block;
-  height: 450px;
   width: 100%;
-  position: relative;
+  height: 100%;
 }
 .section-furniture-box .section-box-adv a img {
   position: absolute;
-  left: -35%;
+  width: auto;
   height: 450px;
-  border: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .section-furniture-box > .container {
   margin-top: 10px;
